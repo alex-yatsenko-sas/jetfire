@@ -80,7 +80,7 @@
  @param callbackQueue the dispatch queue for handling callbacks
  @return a newly initalized websocket.
  */
-- (nonnull instancetype)initWithURLAndQueue:(nonnull NSURL *)url protocols:(nonnull NSArray*)protocols callbackQueue:(nonnull dispatch_queue_t)callbackQueue;
+- (nonnull instancetype)initWithURL:(nonnull NSURL *)url protocols:(nonnull NSArray*)protocols callbackQueue:(nonnull dispatch_queue_t)callbackQueue;
 
 /**
  connect to the host - blocking
